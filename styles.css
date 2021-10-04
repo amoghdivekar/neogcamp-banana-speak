@@ -7,7 +7,7 @@
 :root {
     --primary: #FCA5A5;
     --black: #333333;
-    --width-break:600px
+    --width-break:40rem;
 }
 
 body {
@@ -46,17 +46,12 @@ button {
 }
 
 #output {
-    /* border: 1px solid black;
-    height: 10vh;
-    width: 80%;
-    margin: 1rem;
-    padding: 1rem; */
 
     box-sizing: border-box;
     width: 100%;
-    min-height: 10vh;
+    
     max-height: 20vh;
-    /* overflow:scroll; */
+    
     border: 1px solid var(--black);
 }
 
@@ -70,7 +65,6 @@ footer {
 }
 
 footer p {
-    /* max-width: max-content; */
-    max-width: var(--width-break);
+    
     margin: auto;
 }
